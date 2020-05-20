@@ -30,9 +30,9 @@ namespace PeopleManagement.Web.Pages
                 LastName = "Alecto",
                 DateOfBirth = new DateTime ( 1991, 11, 12 ),
                 Alive = 'Y',
-                Gender = Gender.Female,
+                //Gender = Gender.Female,
                 PicturePath = "images/mary.png",
-                MobileId = 1
+                
             };
 
             Person p2 = new Person {
@@ -42,9 +42,9 @@ namespace PeopleManagement.Web.Pages
                 LastName = "Compagnion",
                 DateOfBirth = new DateTime(1954, 01, 08),
                 Alive = 'Y',
-                Gender = Gender.Male,
+                //Gender = Gender.Male,
                 PicturePath = "images/Moi.jpg",
-                MobileId = 2
+                
             };
 
             Person p3 = new Person {
@@ -54,9 +54,9 @@ namespace PeopleManagement.Web.Pages
                 LastName = "Compagnion",
                 DateOfBirth = new DateTime(1946, 04, 13),
                 Alive = 'Y',
-                Gender = Gender.Male,
+                //Gender = Gender.Male,
                 PicturePath = "images/sam.jpg",
-                MobileId = 3
+               
             };
             Person p4 = new Person {
                 PersonId = 4,
@@ -65,9 +65,9 @@ namespace PeopleManagement.Web.Pages
                 LastName = "Compagnion",
                 DateOfBirth = new DateTime(1951, 11, 05),
                 Alive = 'Y',
-                Gender = Gender.Female,
+                //Gender = Gender.Female,
                 PicturePath = "images/sara.png",
-                MobileId = 4
+               
             };
 
             Persons = new List<Person> { p1, p2, p3, p4 };
